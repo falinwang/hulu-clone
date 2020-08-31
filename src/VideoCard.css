@@ -1,7 +1,7 @@
 .videoCard {
   color: #fff;
   width: 400px;
-  height: 450px;
+  height: 400px;
   padding: 20px;
   transition: transform 100ms;
   cursor: pointer;
@@ -19,7 +19,6 @@
 
 .videoCard > h2 {
   padding-top: 10px;
-  padding-bottom: 5px;
 }
 
 .videoCard > h4 {
