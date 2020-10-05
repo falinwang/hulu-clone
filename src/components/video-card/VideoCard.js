@@ -34,8 +34,6 @@ const VideoCard = forwardRef(({ movie }, ref) => {
         <ThumbUpIcon />
         {`  `}
         {movie.vote_count}
-        
-
       </p>
     </div>
   );

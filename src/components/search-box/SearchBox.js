@@ -12,7 +12,7 @@ function SearchBox({ placeholder, setSelectedOption }) {
 
   const handleOnChange = (e) => {
     setQuery(e.target.value);
-  }
+  };
 
   return (
     <form className="form" onSubmit={handleOnSubmit}>

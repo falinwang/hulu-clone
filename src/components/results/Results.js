@@ -19,9 +19,11 @@ function Results({ selectedOption }) {
   return (
     <div className="results">
       <FlipMove>
-        {movies.filter(movie => movie.poster_path).map((movie) => (
-          <VideoCard key={movie.id} movie={movie} />
-        ))}
+        {movies
+          .filter((movie) => movie.poster_path)
+          .map((movie) => (
+            <VideoCard key={movie.id} movie={movie} />
+          ))}
       </FlipMove>
     </div>
   );
