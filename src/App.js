@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./App.css";
-import Header from "./Header";
-import Nav from "./Nav";
-import Results from "./Results";
+import Header from "./components/header/Header";
+import Nav from "./components/nav/Nav";
+import Results from "./components/results/Results";
 import requests from "./requests";
 
 function App() {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Nav.css";
-import requests from "./requests";
+import requests from "../../requests";
 
 function Nav({ setSelectedOption }) {
   return (
